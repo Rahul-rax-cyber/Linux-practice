@@ -1,0 +1,41 @@
+# Day 2 — Linux Filesystem & FHS 🐧
+
+## Topics Learned
+
+- Linux root filesystem `/`
+- Filesystem Hierarchy Standard (FHS)
+- System configuration
+- Variable data and logs
+- User directories
+- Temporary files
+- Programs and libraries
+- Devices
+- Process and kernel information
+- Runtime data
+- Boot files
+
+## Important Directories
+
+| Directory | Purpose |
+|---|---|
+| `/etc` | Configuration |
+| `/var` | Variable data |
+| `/home` | User files |
+| `/tmp` | Temporary files |
+| `/usr` | Programs and libraries |
+| `/opt` | Optional software |
+| `/dev` | Device files |
+| `/proc` | Process/kernel information |
+| `/sys` | System/device information |
+| `/run` | Runtime data |
+| `/boot` | Boot files |
+
+## Learning Approach
+
+80% Hands-on + 20% Notes + 0% Focused Video
+
+## Status
+
+Day 2 learning and FHS memory test completed ✅
+
+Next: Linux Filesystem Utilities & File Management 🚀
