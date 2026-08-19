@@ -1,0 +1,30 @@
+# Day 3 — Linux File & Directory Management 🐧
+
+## Completed
+
+- Created files and directories
+- Copied files with `cp`
+- Moved files with `mv`
+- Searched with `find`
+- Identified file types with `file`
+- Inspected metadata with `stat`
+- Deleted files with `rm`
+- Deleted empty directories with `rmdir`
+
+## Troubleshooting Practice
+
+Encountered:
+
+`mv: cannot stat 'linux-copy.txt': No such file or directory`
+
+Investigated the filesystem using `find`, identified the missing files, created the required copies, moved them, and verified the final structure.
+
+## Key Lesson
+
+Error → Investigate → Fix → Verify
+
+## Status
+
+Day 3/100 ✅
+
+80% Hands-on | 20% Notes | 0% Focused Video
