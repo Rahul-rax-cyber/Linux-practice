@@ -1,0 +1,38 @@
+# Day 4 — Linux Users & Groups 👤🐧
+
+## Topics
+
+- User identification
+- User and group information
+- Group membership
+- User creation
+- Password management
+- User modification
+- User deletion
+- Group creation
+- Group deletion
+
+## Commands Practiced
+
+whoami
+id
+groups
+who
+useradd
+passwd
+usermod
+userdel
+groupadd
+groupdel
+
+## Key Learning
+
+Users and groups are fundamental to Linux administration, permissions, security, and infrastructure troubleshooting.
+
+## Learning Approach
+
+80% Hands-on | 20% Notes | 0% Focused Video
+
+## Progress
+
+Day 4/100 🚀
