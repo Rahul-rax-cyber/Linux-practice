@@ -1,0 +1,36 @@
+# Day 5 — Linux Permissions 🔐🐧
+
+## Topics
+
+- Read, Write, Execute permissions
+- User/Owner
+- Group
+- Others
+- chmod
+- Numeric permissions
+- File permissions
+- Directory permissions
+
+## Permission Model
+
+u = User/Owner
+g = Group
+o = Others
+
+r = Read
+w = Write
+x = Execute
+
+## Numeric Permissions
+
+644 = rw-r--r--
+600 = rw-------
+700 = rwx------
+
+## Learning Approach
+
+80% Hands-on | 20% Notes | 0% Focused Video
+
+## Progress
+
+Day 5/100 🚀
