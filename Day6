@@ -1,0 +1,40 @@
+# Day 6 — Linux File Permissions 🔐🐧
+
+## Topics Practiced
+
+- Read / Write / Execute
+- User / Owner
+- Group
+- Others
+- chmod
+- Numeric permissions
+- File permissions
+- Directory permissions
+
+## Permission Model
+
+u = User/Owner
+g = Group
+o = Others
+
+r = Read
+w = Write
+x = Execute
+
+## Numeric Permissions
+
+644 = rw-r--r--
+600 = rw-------
+700 = rwx------
+
+## Key Learning
+
+Linux permissions provide the foundation for access control, security and system administration.
+
+## Learning Approach
+
+80% Hands-on | 20% Notes | 0% Focused Video
+
+## Progress
+
+Day 6/100 🚀
