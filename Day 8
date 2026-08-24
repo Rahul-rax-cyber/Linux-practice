@@ -1,0 +1,47 @@
+# Day 8 — Linux Process Management ⚙️🐧
+
+## Topics
+
+- ps
+- top
+- pgrep
+- kill
+- PID
+- PPID
+- jobs
+- fg
+- bg
+
+## Process Concepts
+
+ps      = View processes
+top     = Live process monitoring
+pgrep   = Find process ID
+kill    = Send signal to process
+PID     = Process ID
+PPID    = Parent Process ID
+jobs    = Shell jobs
+fg      = Background → Foreground
+bg      = Stopped → Background
+
+## Key Learning
+
+Every running program in Linux is a process.
+
+Parent Process
+      ↓
+    PPID
+      ↓
+   Process
+      ↓
+     PID
+
+Process management is a core skill for Linux Administration, Infrastructure Support, Cloud and DevOps.
+
+## Learning Approach
+
+80% Hands-on | 20% Notes | 0% Focused Video
+
+## Progress
+
+Day 8/100 🚀
