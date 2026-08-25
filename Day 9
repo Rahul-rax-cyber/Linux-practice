@@ -1,0 +1,29 @@
+# Day 9 — Linux File Searching & Text Processing 🔎🐧
+
+## Topics Practiced
+
+- `find` — Search files and directories
+- `grep` — Search text patterns
+- `head` — View first lines
+- `tail` — View last/recent lines
+- `wc` — Count lines, words and characters
+- `sort` — Arrange data
+
+## Hands-on Lab
+
+Created a sample application log and practiced investigating errors.
+
+### Commands Used
+
+```bash
+grep "ERROR" logs/app.log
+grep -c "ERROR" logs/app.log
+
+head -n 2 logs/app.log
+tail -n 2 logs/app.log
+
+find . -name "*.log"
+find . -type f
+find . -type d
+
+find . -name "*.log" -exec grep "ERROR" {} \;
