@@ -1,0 +1,24 @@
+# Day 10 — Linux Disk & Storage Management 💾🐧
+
+## Topics Practiced
+
+- Disks
+- Partitions
+- Filesystems
+- Mount Points
+- Storage inspection
+- Disk usage troubleshooting
+
+## Storage Flow
+
+Disk → Partition → Filesystem → Mount Point
+
+## Commands Practiced
+
+```bash
+lsblk
+df -h
+du -sh .
+du -sh */
+mount
+findmnt
