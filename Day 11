@@ -1,0 +1,25 @@
+# Day 11 — Linux Process Management & System Monitoring ⚙️🐧
+
+## Topics Practiced
+
+- Process concepts
+- PID and PPID
+- Process monitoring
+- Process states
+- Process termination
+- Zombie processes
+- Process priority
+- System resource monitoring
+
+## Commands Practiced
+
+```bash
+ps
+ps -ef
+top
+pgrep
+kill
+uptime
+free -h
+nice
+renice
