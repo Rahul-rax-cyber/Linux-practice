@@ -1,0 +1,23 @@
+# Day 12 — Linux Services & Systemd ⚙️🐧
+
+## Topics Practiced
+
+- Linux Services
+- systemd
+- systemctl
+- Service status monitoring
+- Starting and stopping services
+- Restarting services
+- Enable/disable at boot
+- System and service logs using journalctl
+
+## Commands Practiced
+
+```bash
+systemctl status
+systemctl list-units --type=service --state=running
+systemctl status SERVICE
+systemctl is-active SERVICE
+journalctl -n 20
+journalctl -f
+journalctl -u SERVICE
