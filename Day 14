@@ -1,0 +1,60 @@
+🐧 Day 14 — Linux Boot Process & System Startup
+
+📌 What I Learned
+
+Today I learned how a Linux system starts from Power ON and reaches the Login Screen / Terminal.
+
+🔄 Linux Boot Process
+
+Power ON
+   ↓
+BIOS / UEFI
+   ↓
+Bootloader (GRUB)
+   ↓
+Linux Kernel
+   ↓
+systemd (PID 1)
+   ↓
+Services Start
+   ↓
+Login Screen / Terminal
+
+💻 Topics Covered
+
+- ⚡ Power ON and hardware initialization
+- 🖥️ BIOS / UEFI
+- 🚀 GRUB Bootloader
+- 🐧 Linux Kernel
+- ⚙️ systemd and PID 1
+- 🔧 Service initialization
+- 🖥️ Login Screen / Terminal
+
+🧠 Key Learning
+
+The Linux boot process happens in multiple stages, and each stage has a specific responsibility.
+
+Understanding this flow is important for troubleshooting:
+
+- Boot failures
+- Kernel loading issues
+- Service startup problems
+- System initialization issues
+
+🎯 Learning Approach
+
+- 💻 80% Hands-on
+- 📚 20% Notes
+- 🎥 0% Focused Video
+
+«Certificate = Completion 🎓
+Hands-on = Skill 💻
+Troubleshooting = Real Experience 🔥»
+
+✅ Progress
+
+Day 14/100 — Completed 🚀
+
+🛠️ Next
+
+Linux Processes & Process Management 🐧⚙️
