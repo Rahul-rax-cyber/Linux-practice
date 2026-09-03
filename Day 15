@@ -1,0 +1,27 @@
+# Day 15 — Linux systemd & Service Management ⚙️🐧
+
+## Topics Practiced
+
+- systemd
+- systemctl
+- Services
+- Units
+- Targets
+- Service dependencies
+- Failed services
+- Boot and service logs
+
+## Commands Practiced
+
+```bash
+systemctl --version
+systemctl --failed
+systemctl list-units --type=service
+systemctl list-unit-files --type=service
+systemctl status ssh
+systemctl is-active ssh
+systemctl is-enabled ssh
+journalctl -u ssh -n 20
+systemctl list-dependencies
+systemctl get-default
+systemctl list-units --type=target
